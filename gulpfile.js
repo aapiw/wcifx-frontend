@@ -86,9 +86,6 @@ var cssTasks = function(filename) {
       return gulpif(enabled.maps, sourcemaps.init());
     })
     .pipe(function() {
-      return gulpif('*.less', less());
-    })
-    .pipe(function() {
       return gulpif('*.scss', sass({
         outputStyle: 'nested', // libsass doesn't support expanded yet
         precision: 10,
@@ -245,11 +242,13 @@ gulp.task('clean', require('del').bind(null, [path.dist]));
 gulp.task('watch', function() {
   browserSync.init({
     files: ['application/views/**/*.php', '*.php'],
-    proxy: config.devUrl,
+    // proxy: config.devUrl,
+    proxy: "localhost/wcifx-frontend/application/views/",
     snippetOptions: {
       whitelist: ['/application/views/**'],
       blacklist: ['/system/**']
-    }
+    },
+    
   });
   gulp.watch([path.source + 'styles/**/*'], ['styles']);
   gulp.watch([path.source + 'scripts/**/*'], ['jshint', 'scripts']);
