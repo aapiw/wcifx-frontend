@@ -6,7 +6,7 @@ function macySetup(){
         margin: 24,
         columns: 2,
         breakAt: {
-          1200: 5,
+          1200: 2,
           940: 3,
           520: 2,
           400: 1
