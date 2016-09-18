@@ -242,8 +242,7 @@ gulp.task('clean', require('del').bind(null, [path.dist]));
 gulp.task('watch', function() {
   browserSync.init({
     files: ['application/views/**/*.php', '*.php'],
-    // proxy: config.devUrl,
-    proxy: "localhost/wcifx-frontend/application/views/",
+    proxy: config.devUrl,
     snippetOptions: {
       whitelist: ['/application/views/**'],
       blacklist: ['/system/**']

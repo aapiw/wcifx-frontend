@@ -1,3 +1,23 @@
+.btn.btn-brand{
+	@include border-radius(0px);
+	border: none;
+	outline: none;
+	background: $orange;
+	color: white;
+	padding: 2px 16px;
+}
+.btn-brand.btn-green{
+	background: $green;
+}
+.btn.btn-tag{
+	background: $gray-bg-tag !important;
+	color:$gray-text !important;
+	padding: 4px 14px;
+	&:hover{
+		background: $orange-tag !important;
+		color: white !important;
+	}
+}
 @media (min-width: $screen-md){
 	.container{
 		width: 1000px;
@@ -5,15 +25,15 @@
 }
 
 .navbar{
-	border-radius: 0;
+	@include border-radius(0px);
 	min-height: 30px;
+	margin: 0;
 }
 .navbar-default.nav-first{
 	background: $green;
 	border:none;
 	color: white;
 	padding: 6px;
-	margin: 0;
 	.navbar-nav>li>a{
 		padding-top: 10px;
 	    padding-bottom: 10px;
@@ -22,12 +42,13 @@
 	    min-height: 30px;
 	}
 	.nav.navbar-nav.navbar-left.social{ 
+		margin-left: -15px;
 		div{
 			float: left;
 			background: white;
 		    width: 22px;
 		    height: 22px;
-		    border-radius: 22px;
+		    @include border-radius(22px);
 		    line-height: 22px;
 		    margin-right: 4px;
 		    i{
@@ -46,18 +67,331 @@
 				}
 			}
 		}
-		.btn.btn-default.btn-orange{
-			background: $orange;
-			color: white;
-			border-radius: 0;
-			border: 0;
-			padding: 2px 16px;
+		.btn.btn-brand{
 			min-width: 100px;
 			&:last-child{
 				margin-left: 10px;
 			}
 		}
 }
+
 .navbar-default.navbar-second{
-	// background: white;
+	background: white;
+	border: 0;
+	#second-nav{
+		ul{
+			li{ 
+				a{
+				color: $green;
+					font-weight: bold;
+				&:hover{
+					color: $orange;
+				}
+				&.active, &.focus {
+					background: 0;
+				}
+				}
+				&.active a, &.open a{
+					background: none;
+					color: $orange;
+				}
+				.dropdown-menu{
+					@include border-radius(0px);
+						li {
+							a{
+								color: $green;
+							}
+							a:hover{
+								background: $orange;
+								color: white;
+						}
+					}
+				}
+			}
+		}
+	}
+	.navbar-brand{
+		margin-left: 0;
+		padding: 8px 0;
+	}
+}
+@media(min-width: $screen-md){
+	.navbar-second{
+		.navbar-brand{
+			margin-right: 70px;
+		}
+		#second-nav ul:not(.dropdown-menu) li{
+			margin-right: 25px;
+		}
+	}
+}
+
+.header{
+	height: 350px;
+    background-size: cover !important;
+    margin: 0 -15px 0px -15px
+}
+
+.media .media-left{
+	div{
+		width: 100px;
+	    height: 100px;
+	    background-size: cover;
+	}
+}
+.post-diary{
+    padding: 80px 30px 0 0;
+	.head{
+		color: $gray-text;
+		border-bottom: 1px solid $gray-line;
+	    padding: 20px 0;
+	    margin: 30px 0;
+	}
+	.media{
+		border-bottom: 1px solid $gray-line;
+		padding-bottom: 20px;
+		.media-body{
+			.media-heading{
+				color: $green;
+			}
+			span{
+				color: $gray-text;
+			}
+		}
+	}
+    .input-group{ 
+	    input{
+	        @include border-radius(0px);
+	    }
+	    .input-group-btn{
+			button, input[type='submit']{
+				@include border-radius(0px);
+			    border-left: 0;
+			    box-shadow: none;
+			    outline: initial;
+			    padding: 6.2px 11px;
+			}
+		}
+	}
+	button.btn.btn-brand{
+		margin: 0 3px 8px 0;
+	}
+}
+
+// LEFT NAVIGATION
+.news-diary{
+	border-left: 1px solid $gray-line;
+    padding: 80px 30px 30px 40px;
+    min-height: 968px;
+    h5.head{
+    	color:$gray-text;
+    	margin: 0 0 25px 0;
+    }
+	.thumbnail{
+		padding: 0;
+	    @include border-radius(0px);
+	    border: 0;
+	    background: $gray-bg-card;
+	    h5{
+	    	color: $green;
+	    	margin: 20px 0;
+	    }
+	    .caption{
+	    	    padding: 15px;
+	    	p{
+	    		line-height: 30px;
+	    	}
+	    	span, p{
+	    		color:$gray-text;
+	    	}
+	    	.date{
+	    		margin: 0 0 15px 0;
+	    	}
+	    	.by{
+	    		color:$orange !important;
+	    	}
+	    	.comment{
+	    		margin: 20px 0;
+	    		span{
+	    		color: $gray-comment;
+	    		}
+	    		a{
+	    			color: $gray-comment;
+		    		&:hover{
+						color: #eaeaea;
+		    		}
+	    		}
+	    	}
+	    	.btn-brand{
+	    		padding: 7px 20px;
+	    		&:hover{
+	    			background: $green;
+	    		}
+	    	}
+	    }
+
+	}
+	.divider-left{
+		border-right: 1px solid;
+	    width: 2px;
+	    height: 50px;
+	}
+}
+
+// CONTENT RESULT
+.contest-result{
+	background-color: $gray-bg-card !important;
+	padding: 15px 0 20px 0;
+	.list-line{
+		    width: 250px;
+		    height: 30px;
+		    text-align: center;
+		    margin: auto;
+		    border-top: 1px solid $gray-line;
+		    position: relative;
+		    margin-top: 33px;
+		.center{
+			width: 20px;
+		    height: 18px;
+		    margin: auto;
+		    position: relative;
+		    top: -9px;
+		    background: #f3f3f3;
+		    &:before{
+				  @include list-divider();
+				    border-right: 1px solid $gray-line;
+				   	right: 10px;
+				    float: left;
+		    }
+		    &:after{
+		    	    @include list-divider();
+				    border-left: 1px solid $gray-line;
+				    left: 10px;
+				    float: right;
+		    }
+		}
+
+	}
+	.container{
+	    position: relative;
+    	overflow: hidden;
+			>img{
+				position: absolute;
+			}
+
+		}
+	.nav-tabs{
+		background: $orange;
+		li{
+			margin-bottom: 0;
+			padding: 0;
+		    text-align: center;
+			a{
+				color: white;
+				border: 0;
+				font-size: 15px;
+				font-weight: 700;
+				@include border-radius(0px);
+				margin: 0;
+				&:hover, &:focus{
+					background: $orange-hover;
+					color: white;
+				}
+			}
+			&.active a{
+				background: $orange-hover;
+				color: white;
+				border: none;
+
+			}
+		}
+		}
+		.tab-content{
+			padding: 10px;
+			background: $gray-result-1;
+			color: $gray-text;
+			th{
+				border:0;
+			}
+		}
+		.panel.panel-default{
+			border: none;
+		    box-shadow: none;
+		    border-radius: 0;
+		    color: $gray-text;
+		    .panel-heading{
+		    	background: $orange;
+		    	color: white;
+		    	font-weight: 700;
+		    	@include border-radius(0px);
+		    	font-size:15px;
+		    }
+		    .panel-body{
+		    	.table{
+		    		margin:0;
+		    	}
+		    	padding: 0;
+		    	th{
+		    		border: 0;
+		    	}
+		    	thead>tr{
+		    		background: $gray-result-1 !important;
+		    	}
+		    	tr{
+		    	&:nth-of-type(odd){
+		    		background:  $gray-result-2;
+		    	}
+		    	&:nth-of-type(even){
+		    		background: $gray-result-1;
+		    	}		    		
+		    	}
+		    	th,td{
+		    		padding: 5px 15px;
+		    	}
+		    	td> div{
+		    		&:first-child{
+		    			float: left;
+		    		}
+		    		&:last-child{
+		    			margin-left: 42px;
+		    		}
+		    	}
+		    	.small{
+		    	    position: absolute;
+				    bottom: 27px;
+				    right: 31px;
+		    	}
+		    }
+		}
+		.highlight{
+			color: $green;
+			font-weight: 600;
+		}
+	}
+
+// Footer
+.footer{
+	background: $black-footer;
+	padding: 40px 0;
+	.row{
+		>div{
+			border-bottom: 1px solid $gray-line;
+			padding: 20px 0;
+		}
+	}
+	.social-footer {
+		div{
+			@include border-radius(2px);
+			color: white;
+
+		}
+		.1{background: $fb-c;}
+		.2{background: $twitter-c;}
+		.3{background: $youtube-c;}
+		.4{background: $lin-c;}
+		.5{background: $path-c;}
+		.6{background: $instagram-c;}
+		.7{background: $gplus-c;}
+		.8{background: $wordpress-c;}
+	}
 }

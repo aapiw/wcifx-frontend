@@ -20,8 +20,8 @@
 		        <span><i class="fa fa-phone"></i>henryka67@gmail.com</span>
 		    </div>
 		    <ul class="nav navbar-nav navbar-right">
-		      <a href="#x" class="btn btn-default btn-orange">Login</a>
-		      <a href="#x" class="btn btn-default btn-orange">Register</a>
+		      <a href="#x" class="btn btn-brand btn-orange">Login</a>
+		      <a href="#x" class="btn btn-brand btn-orange">Register</a>
 		      <!--   <li><a href="#x">Link</a></li>
 		        <li><a href="#x">Link</a></li> -->
 		    </ul>
@@ -42,7 +42,7 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="#x">Brand</a>
+		      <a class="navbar-brand" href="#x"><img src="../../dist/images/logo.png" alt=""></a>
 		    </div>
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="second-nav">

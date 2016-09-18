@@ -1,0 +1,14 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+@mixin list-divider(){
+	content: '';
+	width: 10px;
+	height: 100%;
+	background: #f3f3f3;
+	display: block;
+	position: relative;
+}
