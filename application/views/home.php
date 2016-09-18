@@ -99,8 +99,6 @@
 						      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
 						    </p>
 						  </video>
-					      <!-- <video src="../../assets/videos/small.mp4" controls>
-					      </video> -->
 					      <div class="caption">
 					        <h5><b>CREATIVE BRANDUNG MOCKUP</b></h5>
 					        <div class="date">March 16, 2016 By: <span class="by">adminTradeBankFX</span></div>
@@ -190,8 +188,17 @@
 					      </div>
 					    </div>
 				  	</div>
-				</div>
+				  	<div class="loading">
+						<div class="col-md-12 text-center">
+							<img src="../../dist/images/loading.png" alt="">
+						</div>
+						<div class="col-md-12 text-center">
+							<a href="#x" class="text-center">LOADING MORE</a>
+						</div>
+				  	</div>
+				</div> <!-- /row -->
 			</div>
+
 		</div>
 	</div>
 	<div class="container-fluid contest-result">
@@ -222,15 +229,18 @@
 					  <!-- Tab panes -->
 					  <div class="tab-content">
 					    <div role="tabpanel" class="tab-pane active" id="freeroll">
+					    <div class="table-responsive">
 							<table class="table">
-								<tr>
-									<th>Contest Name</th>
-									<th>Start</th>
-									<th>Prize fund</th>
-									<th>Participants</th>
-									<th>Buy-in</th>
-									<th>Participate</th>
-								</tr>
+								<thead>
+									<tr>
+										<th>Contest Name</th>
+										<th>Start</th>
+										<th>Prize fund</th>
+										<th>Participants</th>
+										<th>Buy-in</th>
+										<th>Participate</th>
+									</tr>
+								</thead>
 								<tbody>
 									<tr>
 										<td class="highlight">Weekley</td>
@@ -267,17 +277,21 @@
 								</tbody>
 							</table>
 					    </div>
+					    </div>
 					    <div role="tabpanel" class="tab-pane" id="freeroll">
 					    	<div role="tabpanel" class="tab-pane active" id="freeroll">
+					    	<div class="table-responsive">
 								<table class="table">
-									<tr>
-										<th>Contest Name</th>
-										<th>Start</th>
-										<th>Prize fund</th>
-										<th>Participants</th>
-										<th>Buy-in</th>
-										<th>Participate</th>
-									</tr>
+									<thead>
+										<tr>
+											<th>Contest Name</th>
+											<th>Start</th>
+											<th>Prize fund</th>
+											<th>Participants</th>
+											<th>Buy-in</th>
+											<th>Participate</th>
+										</tr>
+									</thead>
 									<tbody>
 										<tr>
 											<td class="highlight">Weekley</td>
@@ -289,10 +303,13 @@
 										</tr>
 									</tbody>
 								</table>
+					    	</div>
 						    </div>
 					    </div>
 					    <div role="tabpanel" class="tab-pane" id="regular">
+					    	<div class="table-responsive">
 					    	<table class="table">
+						    	<thead>
 									<tr>
 										<th>Contest Name</th>
 										<th>Start</th>
@@ -301,6 +318,33 @@
 										<th>Buy-in</th>
 										<th>Participate</th>
 									</tr>
+						    	</thead>
+								<tbody>
+									<tr>
+										<td class="highlight">Weekley</td>
+										<td>Jul 18 2016 12:00 AM</td>
+										<td>$200</td>
+										<td>1698</td>
+										<td>0</td>
+										<td><a href="#x" class="btn btn-brand">Join</a></td>
+									</tr>
+								</tbody>
+							</table>
+					    	</div>
+					    </div>
+					    <div role="tabpanel" class="tab-pane" id="sit">
+					    <div class="table-responsive">
+					    	<table class="table">
+						    	<thead>
+									<tr>
+										<th>Contest Name</th>
+										<th>Start</th>
+										<th>Prize fund</th>
+										<th>Participants</th>
+										<th>Buy-in</th>
+										<th>Participate</th>
+									</tr>
+					    	</thead>
 								<tbody>
 									<tr>
 										<td class="highlight">Weekley</td>
@@ -313,27 +357,6 @@
 								</tbody>
 							</table>
 					    </div>
-					    <div role="tabpanel" class="tab-pane" id="sit">
-					    	<table class="table">
-								<tr>
-									<th>Contest Name</th>
-									<th>Start</th>
-									<th>Prize fund</th>
-									<th>Participants</th>
-									<th>Buy-in</th>
-									<th>Participate</th>
-								</tr>
-								<tbody>
-									<tr>
-										<td class="highlight">Weekley</td>
-										<td>Jul 18 2016 12:00 AM</td>
-										<td>$200</td>
-										<td>1698</td>
-										<td>0</td>
-										<td><a href="#x" class="btn btn-brand">Join</a></td>
-									</tr>
-								</tbody>
-							</table>
 					    </div>
 							<div class="text-right small"><i class="fa fa-bars"></i> All Regular Competition</div>
 					  </div>
@@ -344,7 +367,8 @@
 					  <!-- Default panel contents -->
 					  <div class="panel-heading">Panel heading</div>
 					  <div class="panel-body">
-					  <table class="table" cellpadding="30">
+					  <div class="table-responsive"></div>
+					  <table class="table">
 							<thead>
 								<tr>
 									<th>Winner</th>
@@ -391,7 +415,7 @@
 									</td>
 									<td class="highlight">$200</td>
 								</tr>
-								<div class="text-right small"><i class="fa fa-group"></i> Interview of Winner</div>	
+								<div class="text-right small"><i class="fa fa-group"></i> Interview of Winner</div>
 							</tbody>
 						</table>
 					  </div>

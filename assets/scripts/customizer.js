@@ -7,8 +7,8 @@ function macySetup(){
         columns: 2,
         breakAt: {
           1200: 2,
-          940: 3,
-          520: 2,
+          940: 2,
+          520: 1,
           400: 1
         }
     });

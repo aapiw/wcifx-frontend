@@ -4,30 +4,35 @@
 			<div class="col-md-12 sec-1">
 				<img src="../../dist/images/payments.png" alt="payments">
 			</div>
+		</div>
+		<div class="row">
 			<div class="col-md-12 sec-2">
 				<div class="col-sm-2 col-xs-6">
-					<a href="#x">Open Acount</a>
-					<a href="#x">Deposite Account</a>
+					<p><a href="#x">Open Acount</a></p>
+					<p><a href="#x">Deposite Account</a></p>
 				</div>
 				<div class="col-sm-2 col-xs-6">
-					<a href="#x">Download terminal</a>
-					<a href="#x">Open account</a>
+					<p><a href="#x">Download terminal</a></p>
+					<p><a href="#x">Open account</a></p>
 				</div>
 				<div class="col-sm-2 col-xs-6">
-					<a href="#x">Get Bonus</a>
-					<a href="#x">Participate in composition</a>
+					<p><a href="#x">Get Bonus</a></p>
+					<p><a href="#x">Participate in composition</a></p>
 				</div>
 				<div class="col-sm-2 col-xs-6">
-					<a href="#x">Subcribe to signals</a>
-					<a href="#x">Becam signal provider</a>
+					<p><a href="#x">Subcribe to signals</a></p>
+					<p><a href="#x">Becam signal provider</a></p>
 				</div>
 				<div class="col-sm-2 col-xs-6">
-					<a href="#x">Invest</a>
-					<a href="">Became partner</a>
+					<p><a href="#x">Invest</a></p>
+					<p><a href="">Became partner</a></p>
 				</div>
 			</div>
+		</div>
+		<div class="row">
 			<div class="col-md-12 sec-3">
 				<div class="col-md-3">
+					<small>Get MFXtrader on</small>
 					<div class="play" style="background:url('../../dist/images/g-play.png') no-repeat"></div>
 				</div>
 				<div class="col-md-3">
@@ -48,43 +53,45 @@
 					<a href="#x" class="btn btn-brand btn-green"><i class="fa fa-Found"></i>Found a mistake?</a>
 				</div>
 			</div>
+		</div>
+		<div class="row">
 			<div class="col-md-12 sec-4">
-				<div class="col-md-2 col-sm-3 col-xs-6">
+				<div class="col-md-2 col-sm-6 col-xs-6">
 					<p class="title">Trade with us</p>
 					<p>Bonuses </p>
 					<p>Bonuses </p>
 					<p>Bonuses </p>
 					<p>Bonuses</p>
 				</div>
-				<div class="col-md-2 col-sm-3 col-xs-6">
+				<div class="col-md-2 col-sm-6 col-xs-6">
 					<p class="title">Trade Invest</p>
 					<p>Bonuses </p>
 					<p>Bonuses </p>
 					<p>Bonuses </p>
 					<p>Bonuses </p>
 				</div>
-				<div class="col-md-2 col-sm-3 col-xs-6">
+				<div class="col-md-2 col-sm-6 col-xs-6">
 					<p class="title">Participate</p>
 					<p>Bonuses </p>
 					<p>Bonuses </p>
 					<p>Bonuses </p>
 					<p>Bonuses </p>
 				</div>
-				<div class="col-md-2 col-sm-3 col-xs-6">
+				<div class="col-md-2 col-sm-6 col-xs-6">
 					<p class="title">Become partner</p>
 					<p>Bonuses </p>
 					<p>Bonuses </p>
 					<p>Bonuses </p>
 					<p>Bonuses </p>
 				</div>
-				<div class="col-md-2 col-sm-3 col-xs-6">
+				<div class="col-md-2 col-sm-6 col-xs-6">
 					<p class="title">About company</p>
 					<p>Bonuses </p>
 					<p>Bonuses </p>
 					<p>Bonuses </p>
 					<p>Bonuses </p>
 				</div>
-				<div class="col-md-2 col-sm-3 col-xs-6">
+				<div class="col-md-2 col-sm-6 col-xs-6">
 					<p class="title">Trade eith us</p>
 					<p>Bonuses </p>
 					<p>Bonuses </p>
@@ -92,9 +99,15 @@
 					<p>Bonuses </p>
 				</div>
 			</div>
+		</div>
+		<div class="row">
 			<div class="col-md-12 sec-5">
-				<span class="text-left">&copy; 2016 MFX <span class="xtra-small"> <i class="fa fa-angle-double-left"></i> </span>
-				 Broker <span class="xtra-small"> <i class="fa fa-angle-double-right"></i></span></span> <p class="text-center">Information postted website is of general nature and provided for information only </p>
+				<div class="col-md-3">
+					<p class="text-left">&copy; 2016 MFX <i class="fa fa-angle-double-left"></i> Broker <i class="fa fa-angle-double-right"></i></p>
+				</div>
+				<div class="col-md-9">
+				 	<p class="text-left inf">Information postted website is of general nature and provided for information only </p>
+				</div>
 			</div>
 		</div>
 	</div>
