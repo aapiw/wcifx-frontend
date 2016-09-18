@@ -74,12 +74,65 @@
 				<div class="row">
 					<h5 class="head"><b>NEWS DIARY</b></h5>
 					<div id="macy-container">
+						<div class="thumbnail">
+					      <img src="../../dist/images/news-diary-1.jpg" alt="...">
+					      <div class="caption">
+					        <h5><b>CREATIVE BRANDUNG MOCKUP</b></h5>
+					        <div class="date">March 16, 2016 By: <span class="by">adminTradeBankFX</span></div>
+					        <p>Lorem ipsum dolor sit amet quidem in vitae totam fugit molestias explicabo iste voluptate natus at, ipsam assumenda Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi nobis necessitatibus id, perferendis itaque. Nesciunt praesentium eligendi, perferendis alias fuga sapiente iusto, dolor a, nam recusandae amet commodi quis tenetur..</p>
+					        <div class="comment">
+					        	<span>Comment: </span><a href="#x"><i class="fa fa-comment-o"></i></a><span> 5</span>&nbsp;
+					        	<span>Share: </span><a href="#x"><i class="fa fa-share-alt"></i></a><span> 22</span>&nbsp;
+					        	<span>Like: </span> <a href="#x"><i class="fa fa-heart-o"></i></a><span> 20</span>
+					        </div>
+					        <p><a href="#" class="btn btn-brand" role="button">Read More</a>
+					      </div>
+					    </div>
+					    <div class="thumbnail">
+
+					    <h5 class="video-title">THE TITLE OF VIDEO THE TITLE OF VIDEO THE TITLE OF VIDEO THE TITLE</h5>
+					      <video id="my-video" class="video-js" controls     height="202" data-setup="{}">
+						    <source src="../../assets/videos/small.mp4" type='video/mp4'>
+						    <source src="../../assets/videos/small.webm" type='video/webm'>
+						    <p class="vjs-no-js">
+						      To view this video please enable JavaScript, and consider upgrading to a web browser that
+						      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						    </p>
+						  </video>
+					      <!-- <video src="../../assets/videos/small.mp4" controls>
+					      </video> -->
+					      <div class="caption">
+					        <h5><b>CREATIVE BRANDUNG MOCKUP</b></h5>
+					        <div class="date">March 16, 2016 By: <span class="by">adminTradeBankFX</span></div>
+					        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque perferendis amet, modi ad quia, magni fugiat ipsum</p>
+					        <div class="comment">
+					        	<span>Comment: </span><a href="#x"><i class="fa fa-comment-o"></i></a><span> 5</span>&nbsp;
+					        	<span>Share: </span><a href="#x"><i class="fa fa-share-alt"></i></a><span> 22</span>&nbsp;
+					        	<span>Like: </span> <a href="#x"><i class="fa fa-heart-o"></i></a><span> 20</span>
+					        </div>
+					        <p><a href="#" class="btn btn-brand" role="button">Read More</a>
+					      </div>
+					    </div>
 					    <div class="thumbnail">
 					      <img src="../../dist/images/news-diary-1.jpg" alt="...">
 					      <div class="caption">
 					        <h5><b>CREATIVE BRANDUNG MOCKUP</b></h5>
 					        <div class="date">March 16, 2016 By: <span class="by">adminTradeBankFX</span></div>
-					        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque perferendis amet, modi ad quia, magni fugiat ipsum, quidem in vitae totam fugit molestias explicabo iste voluptate natus at, ipsam assumenda. magni fugiat ipsum, quidem in vitae totam fugit molestias explicabo iste voluptate natus at, ipsam assumenda. magni fugiat ipsum, quidem in vitae totam fugit molestias explicabo iste voluptate natus at, ipsam assumenda.</p>
+					        <p>Lorem ipsum dolor sit amet quidem in vitae totam fugit molestias explicabo iste voluptate natus at, ipsam assumenda.</p>
+					        <div class="comment">
+					        	<span>Comment: </span><a href="#x"><i class="fa fa-comment-o"></i></a><span> 5</span>&nbsp;
+					        	<span>Share: </span><a href="#x"><i class="fa fa-share-alt"></i></a><span> 22</span>&nbsp;
+					        	<span>Like: </span> <a href="#x"><i class="fa fa-heart-o"></i></a><span> 20</span>
+					        </div>
+					        <p><a href="#" class="btn btn-brand" role="button">Read More</a>
+					      </div>
+					    </div>
+					    <div class="thumbnail">
+					      <img src="../../dist/images/news-diary-1.jpg" alt="...">
+					      <div class="caption">
+					        <h5><b>CREATIVE BRANDUNG MOCKUP</b></h5>
+					        <div class="date">March 16, 2016 By: <span class="by">adminTradeBankFX</span></div>
+					        <p>Lorem ipsum dolor sit amet quidem in vitae totam fugit molestias explicabo iste voluptate natus at, ipsam assumenda.</p>
 					        <div class="comment">
 					        	<span>Comment: </span><a href="#x"><i class="fa fa-comment-o"></i></a><span> 5</span>&nbsp;
 					        	<span>Share: </span><a href="#x"><i class="fa fa-share-alt"></i></a><span> 22</span>&nbsp;
@@ -103,7 +156,27 @@
 					      </div>
 					    </div>
 					    <div class="thumbnail">
-					      <img src="../../dist/images/news-diary-1.jpg" alt="...">
+					      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="../../dist/images/news-diary-1.jpg" alt=".">
+							    </div>
+							    <div class="item">
+							      <img src="../../dist/images/news-diary-2.jpg" alt="">
+							    </div>
+							  </div>
+
+							  <!-- Controls -->
+							  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+							    <span class="fa fa-angle-left" aria-hidden="true"></span>
+							    <span class="sr-only">Previous</span>
+							  </a>
+							  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+							    <span class="fa fa-angle-right" aria-hidden="true"></span>
+							    <span class="sr-only">Next</span>
+							  </a>
+							</div>
 					      <div class="caption">
 					        <h5><b>CREATIVE BRANDUNG MOCKUP</b></h5>
 					        <div class="date">March 16, 2016 By: <span class="by">adminTradeBankFX</span></div>
