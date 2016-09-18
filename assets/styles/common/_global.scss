@@ -378,20 +378,70 @@
 			border-bottom: 1px solid $gray-line;
 			padding: 20px 0;
 		}
+		.sec-1 img{
+			width: 100%
+		}
+		.sec-2{
+			a{
+				color:$white-text-footer;
+			}
+		}
+		.sec-3{
+			.play {
+			    width: 160px;
+			    height: 50px;
+			    background-position-y: 20px !important;
+			}
+			.app-store{
+			    width: 170px;
+			    height: 50px;
+			    background-position-y: -26px!important
+			}
+			.btn-green{
+				box-shadow: 3px 3px #000;
+			}
+		}
+		.sec-4{
+			color:$gray-text;
+			.title{
+				color: white;
+			}
+		}
+		.sec-5{
+			.text-left{
+				color:white;
+			}
+			.text-center{
+				margin-top: -20px;
+				color: $gray-text
+			}
+		}
 	}
 	.social-footer {
+		small{
+			width: 100%;
+    		float: left;	
+		}
 		div{
 			@include border-radius(2px);
-			color: white;
-
+		    color: #fff;
+		    width: 24px;
+		    float: left;
+		    margin-right: 5px;
+		    height: 24px;
+		    line-height: 24px;
+		    padding: 0 5px;
+			a{
+				color: white;
+			}
 		}
-		.1{background: $fb-c;}
-		.2{background: $twitter-c;}
-		.3{background: $youtube-c;}
-		.4{background: $lin-c;}
-		.5{background: $path-c;}
-		.6{background: $instagram-c;}
-		.7{background: $gplus-c;}
-		.8{background: $wordpress-c;}
+		.a{background: $fb-c;}
+		.b{background: $twitter-c;}
+		.c{background: $youtube-c;}
+		.d{background: $lin-c;}
+		.e{background: $path-c;}
+		.f{background: $instagram-c;}
+		.g{background: $gplus-c;}
+		.h{background: $wordpress-c;}
 	}
 }
